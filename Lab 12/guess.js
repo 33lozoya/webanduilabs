@@ -5,7 +5,7 @@ function checkPassword() {
     const guessedPassword = document.getElementById("password").value;
     const attemptsElement = document.getElementById("numAttempts");
 
-    attempts++;
+    //line deleted
   
     if (guessedPassword === actualPassword) {
       alert("Congratulations, you guessed the password!!");
@@ -13,6 +13,6 @@ function checkPassword() {
       alert("Sorry, that's not the correct password. Please try again.");
     }
 
-    attemptsElement.innerText = attempts;
+    //line deleted
   }
   
