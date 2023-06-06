@@ -1,0 +1,19 @@
+body{
+    border-color: hotpink;
+    border-style: double;
+    margin: auto;
+    padding-bottom: 30em;
+}
+
+h1{
+    text-align: center;
+}
+
+#container{
+    text-align: center;
+    border-style: solid;
+    border-color: blue;
+    width: 45%;
+    padding-bottom: 4em;
+    margin: auto;
+}
